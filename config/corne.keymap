@@ -33,7 +33,7 @@
 #define LT_FUN      &lt  L_FUN   DEL
 
 // Layer-toggles
-#define TOG_UNI     &tog L_UNI
+#define TOG_UNI     &tog L_UNITY
 #define TOG_GAME    &tog L_GAME
 
 // Other
