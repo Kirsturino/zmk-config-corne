@@ -96,6 +96,7 @@
     keymap {
         compatible = "zmk,keymap";
         layer_base {
+            display-name = "Base";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
@@ -110,6 +111,7 @@
         };
 
         layer_nav {
+            display-name = "Nav";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &none      &none      &none      &none      &none          &kp HOME   &kp LC(C)  &none      &kp LC(V)  &kp END
@@ -124,6 +126,7 @@
         };
 
         layer_media {
+            display-name = "Media";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
@@ -138,6 +141,7 @@
         };
 
         layer_tri_settings {
+            display-name = "Settings";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &none      &none      &none      &none      &none         &tog L_GAME &none      &none      &none     &sys_reset
@@ -152,6 +156,7 @@
         };
 
         layer_numbers {
+            display-name = "Num";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp LBKT   &kp N7     &kp N8     &kp N9     &kp RBKT       &none      &none      &none      &none      &none
@@ -166,6 +171,7 @@
         };
 
         layer_symbols {
+            display-name = "Sym";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp LBRC   &kp AMPS   &kp STAR   &kp LPAR   &kp RBRC       &none      &none      &none      &none      &none
@@ -180,6 +186,7 @@
         };
 
         layer_tri_function {
+            display-name = "Fun";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp F12    &kp F7     &kp F8     &kp F9     &kp PSCRN      &none      &none      &none      &none      &none
@@ -194,6 +201,7 @@
         };
 
         layer_game {
+        display-name = "Game";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp TAB    &kp Q      &kp X      &kp E      &kp R         &tog L_GAME &kp 1     &kp 2      &kp 3      &kp 4
@@ -208,6 +216,7 @@
         };
 
         layer_unity {
+            display-name = "Unity";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp TAB    &kp Q      &kp W      &kp E      &kp R          &none      &none      &none      &none      &none
