@@ -1,0 +1,5 @@
+
+*.sqlite
+*.json
+*.vsidx
+.vs/zmk-config-corne/v17/.wsuo
