@@ -114,11 +114,11 @@
             display-name = "Nav";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-            &none      &none      &none      &none      &none          &kp HOME   &kp LC(C)  &none      &kp LC(V)  &kp END
+            &none      &none      &none      &none      &none          &kp HOME   &kp LC(C)  &kp UARW   &kp LC(V)  &kp END
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-            &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &none          &tdc       &kp LARW   &kp UARW   &kp RARW   &none
+            &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &none          &tdc       &kp LARW   &kp DARW   &kp RARW   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-            &none      &none      &none      &none      &none          &mkp MB4   &kp PG_DN  &kp DARW   &kp PG_UP  &mkp MB5
+            &none      &none      &none      &none      &none          &mkp MB4   &kp PG_DN  &none      &kp PG_UP  &mkp MB5
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &trans     &trans     &trans         &trans     &trans     &trans
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
@@ -219,9 +219,9 @@
             display-name = "Unity";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-            &kp TAB    &kp Q      &kp W      &kp E      &kp R          &none      &none      &none      &none      &none
+            &kp TAB    &kp Q      &kp W      &kp E      &kp R          &none      &none      &kp UARW   &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-            &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &none      &none      &none      &none      &none
+            &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &none      &kp LARW   &kp DARW   &kp RARW   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
             &kp LCTRL  &kp Z      &kp X      &kp C      &kp V          &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
